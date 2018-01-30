@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project landschap</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onload="onTimer()">
+		<!-- Eind -->
+			<div id ="myContainer">
+			<p id ="myAnimation"> 
+			Gemaakt door: <br> 
+			Alex Lok <br> 
+			Ammaar Yakoob <br> 
+			Irfan Bilir <br> 
+			Kadir Ciftci<br>
+			Sinan Saritas</p></div>
+		<!-- Eind -->
+		
+		<!-- div box voor dashboard -->
+			<div id="dashboardContainer">
+			 <!-- Counter -->
+				
+				<div id="mycounter"></div>  
+				<p id="counter">Score : </p>
+				<button onclick="reset()">reset</button>
+			 <!-- Counter -->
+			 <!-- Button einde -->
+			 <br/>
+			 
+		     <!-- Button einde -->
+			 </div>
+		<!-- div box voor dashboard -->
+		<!-- Mainbackground -->
+		<div id="blauw"></div>
+		<div id="groen"></div>
+		<!-- Mainbackground -->
+
+		<!-- Hele trein -->
+		<div id="trein" 			class="heletrein">
+		<div id="treinvoorkant" 	class="heletrein">
+		<div id="treinraampje" 		class="heletrein">
+		<div id="treinachterkant"	class="heletrein">
+		<div id="wiel1" 			class="heletrein">	</div>
+		<div id="wiel2" 			class="heletrein">	</div>
+		<div id="wiel3" 			class="heletrein">	</div>
+		</div>
+		<div id="streepNS">ne Nederlandse Spoorwegen!</div>
+				
+		</div></div></div>
+		
+		<!--Hele trein-->
+		
+		<!-- Brug -->
+		<div id="paal1"></div> 
+		<div id="paal2"></div>
+		<div id="paal3"></div>
+		<div id="paal4"></div>
+		<div class="brug">
+		<div id="platform1"></div>
+		</div>
+		<!-- Brug -->
+		
+		<!-- Flat --> 
+		<div id="gebouw">
+		<div id="raam1" class="ramen"><img id="hoofd1" class="hoofd" src="hoofd.png" onClick="this.style.display='none';teller()" /></div>
+		<div id="raam2" class="ramen"><img id="hoofd2" class="hoofd" src="hoofd.png" onClick="this.style.display='none';teller()"/></div>
+		<div id="raam3" class="ramen"><img id="hoofd3" class="hoofd" src="hoofd.png" onClick="this.style.display='none';teller()"/></div>
+		<div id="raam4" class="ramen"><img id="hoofd4" class="hoofd" src="hoofd.png" onClick="this.style.display='none';teller()"/></div>
+		<div id="raam5" class="ramen"><img id="hoofd5" class="hoofd" src="hoofd.png" onClick="this.style.display='none';teller()"/></div>
+		<div id="raam6" class="ramen"><img id="hoofd6" class="hoofd" src="hoofd.png" onClick="this.style.display='none';teller()"/></div>
+		<div id="raam7" class="ramen"><img id="hoofd7" class="hoofd" src="hoofd.png" onClick="this.style.display='none';teller()"/></div>
+		<div id="raam8" class="ramen"><img id="hoofd8" class="hoofd" src="hoofd.png" onClick="this.style.display='none';teller()"/></div>
+		<div id="deur1" class="deur"></div>
+		<div id="deur2" class="deur"></div>
+		<div id='deurknop1' class='deurknop'></div>
+		<div id='deurknop2' class='deurknop'></div>
+		<div id="dak"></div>
+		</div>
+		
+		<script>
+			window.setInterval(function(){
+			var img1 = document.getElementById("hoofd1");
+			var img2 = document.getElementById("hoofd2");   
+			var img3 = document.getElementById("hoofd3");   
+			var img4 = document.getElementById("hoofd4");   
+			var img5 = document.getElementById("hoofd5");   
+			var img6 = document.getElementById("hoofd6");   
+			var img7 = document.getElementById("hoofd7");   
+			var img8 = document.getElementById("hoofd8");   
+			
+			var x = Math.floor((Math.random() * 10) + 1); 
+			
+			if (x == 1){setTimeout(function(){ img1.style.display = 'block' }, 500);setTimeout(function(){ img1.style.display = 'none' }, 2000);}
+				else if (x == 2){setTimeout(function(){ img2.style.display = 'block' }, 500);setTimeout(function(){ img2.style.display = 'none' }, 2000);}
+				else if (x == 3){setTimeout(function(){ img3.style.display = 'block' }, 500);setTimeout(function(){ img3.style.display = 'none' }, 2000);}
+				else if (x == 4){setTimeout(function(){ img4.style.display = 'block' }, 500);setTimeout(function(){ img4.style.display = 'none' }, 2000);}
+				else if (x == 5){setTimeout(function(){ img5.style.display = 'block' }, 500);setTimeout(function(){ img5.style.display = 'none' }, 2000);}
+				else if (x == 6){setTimeout(function(){ img6.style.display = 'block' }, 500);setTimeout(function(){ img6.style.display = 'none' }, 2000);}
+				else if (x == 7){setTimeout(function(){ img7.style.display = 'block' }, 500);setTimeout(function(){ img7.style.display = 'none' }, 2000);}
+				else if (x == 8){setTimeout(function(){ img8.style.display = 'block' }, 500);setTimeout(function(){ img8.style.display = 'none' }, 2000);}
+			}, 1000);
+		</script>
+		<!-- Flat -->
+		
+		<!-- Bos 42 id's Lange code-->
+		<div id="container">
+    <div id="tree"></div>
+    <div id="tree1"></div>
+    <div id="tree"></div>
+    <div id="tree2"></div>
+    <div id="tree1"></div>
+    <div id="tree2"></div>
+    <div id="tree"></div>
+    <div id="tree2"></div>
+    <div id="tree"></div>
+    <div id="tree1"></div>
+    <div id="tree2"></div>
+    <div id="tree2"></div>
+    <div id="tree1"></div>
+    <div id="tree2"></div>
+    <div id="tree"></div>
+    <div id="tree2"></div>
+	<div id="tree1"></div>
+    <div id="tree2"></div>
+    <div id="tree"></div>
+    <div id="tree2"></div>
+	<div id="tree1"></div>
+    <div id="tree2"></div>
+   
+
+  </div>
+		<!-- Bos 42 id's lange code-->
+		
+		<!-- zon -->
+		<div id="test" onclick="myMove()" class="obj-sun">
+
+	<div class="obj-sun-corona">
+		<div class="item-group-1">
+			<span class="item-1"><span><span></span></span></span>
+			<span class="item-2"><span><span></span></span></span>
+			<span class="item-3"><span><span></span></span></span>
+			<span class="item-4"><span><span></span></span></span>
+		</div>
+		<div class="item-group-2">
+			<span class="item-1"><span><span></span></span></span>
+			<span class="item-2"><span><span></span></span></span>
+			<span class="item-3"><span><span></span></span></span>
+			<span class="item-4"><span><span></span></span></span>
+		</div>
+		<div class="item-group-3">
+			<span class="item-1"><span><span></span></span></span>
+			<span class="item-2"><span><span></span></span></span>
+			<span class="item-3"><span><span></span></span></span>
+			<span class="item-4"><span><span></span></span></span>
+		</div>
+		<div class="item-group-4">
+			<span class="item-1"><span><span></span></span></span>
+			<span class="item-2"><span><span></span></span></span>
+			<span class="item-3"><span><span></span></span></span>
+			<span class="item-4"><span><span></span></span></span>
+		</div>
+		<div class="item-group-5">
+			<span class="item-1"><span><span></span></span></span>
+			<span class="item-2"><span><span></span></span></span>
+			<span class="item-3"><span><span></span></span></span>
+			<span class="item-4"><span><span></span></span></span>
+		</div>
+		<div class="item-group-6">
+			<span class="item-1"><span><span></span></span></span>
+			<span class="item-2"><span><span></span></span></span>
+			<span class="item-3"><span><span></span></span></span>
+			<span class="item-4"><span><span></span></span></span>
+		</div>
+	</div>
+	<div class="obj-sun-photosphere"></div>
+</div>
+		<!-- zon -->
+		
+		<!-- Molen -->
+		  <div id="grootte">
+	   	  <div id="molen">
+		  <div id="base"></div>
+		  <div id="dakmolen"></div>
+		  <div id="cross"></div>
+		  <div id="deur"></div>
+		  <div id="raam"></div>
+	      </div>
+		  </div>
+		  <!-- Molen -->
+		  
+		  <!-- pedobeer -->
+		    <aside  draggable="true" id="dragme" style="background-image: url('Pbear.png'); background-repeat: no-repeat;">
+			</aside>
+
+			
+		  <script>
+			  //score
+			
+			var keer = parseInt(0);
+			function teller(){
+			keer = keer + 1;
+			document.getElementById("counter").innerHTML= "Score : " +  keer ;
+			
+			}
+			//score
+			
+			//eind
+
+			function Eind() {
+			var box = document.getElementById("myContainer");
+			var elem = document.getElementById("myAnimation");   
+			var pos = -550;
+			var id = setInterval(frame, 20);
+			
+			function frame() {
+			if (pos == -200) {
+			clearInterval(id);
+			} else {
+			pos++; 
+			box.style.top = pos + 'px'; 
+			box.style.bottom = pos + 'px'; 
+			elem.style.top = pos + 'px'; 
+			elem.style.bottom = pos + 'px'; 
+			
+					}		
+				}
+			}
+			//eind
+			
+			
+			 
+			  
+		  
+		  		  //zon bewegen
+                    function myMove() {
+					var elem = document.getElementById("test");   
+					var pos = -600;
+					var id = setInterval(frame, 10);
+                     
+					 
+				    function frame() {
+                        if (pos == 600) {
+                          clearInterval(id);
+                        } else {
+                          pos++; 
+                          elem.style.right = pos + 'px'; 
+                          elem.style.left = pos + 'px'; 
+                        }
+                      }
+                    }
+				//zon bewegen
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+
+			  
+i = 5;
+function onTimer() {
+  document.getElementById('mycounter').innerHTML = "tijd : " + i;
+  i--;
+  if (i < 0) {
+    Eind();
+	  document.getElementById("myAnimation").innerHTML = "Gemaakt door: <br> Alex Lok <br> Ammaar Yakoob <br> Irfan Bilir <br> Kadir Ciftci<br>Sinan Saritas<br> Score : " + keer;
+	  
+  }
+  else {
+    setTimeout(onTimer, 1000);
+  }
+}
+
+			function reset(){
+				keer = 0;
+				i=5;
+				pos = -550;				
+				document.getElementById("counter").innerHTML= "Score : " +  keer ;
+				
+			}
+			
+    function drag_start(event) {
+        var style = window.getComputedStyle(event.target, null);
+        event.dataTransfer.setData("text/plain",
+        (parseInt(style.getPropertyValue("left"),10) - event.clientX) + ',' + (parseInt(style.getPropertyValue("top"),10) - event.clientY));
+    } 
+    function drag_over(event) { 
+        event.preventDefault(); 
+        return false; 
+    } 
+    function drop(event) { 
+        var offset = event.dataTransfer.getData("text/plain").split(',');
+        var dm = document.getElementById('dragme');
+        dm.style.left = (event.clientX + parseInt(offset[0],10)) + 'px';
+        dm.style.top = (event.clientY + parseInt(offset[1],10)) + 'px';
+        event.preventDefault();
+        return false;
+    } 
+    var dm = document.getElementById('dragme'); 
+    dm.addEventListener('dragstart',drag_start,false); 
+    document.body.addEventListener('dragover',drag_over,false); 
+    document.body.addEventListener('drop',drop,false); 
+</script>
+</body>
+</html> 

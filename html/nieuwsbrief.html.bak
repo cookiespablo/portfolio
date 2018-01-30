@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="iso-8859-1">
+    <meta name="description"  content="marathon amsterdam">
+    <meta name="keywords" content="marathon, resultaten, inschrijven">
+    <meta name="author" content="AMMAAR">  
+    <title>Marathon van Amsterdam</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+  <body>
+    <section id="content">
+        <header>
+                <hgroup>    
+                    <h1>Amsterdam Marathon</h1>
+                </hgroup>
+                <nav>
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="inschrijven.html">Inschrijven</a></li>
+                        <li><a href="#top">Nieuwsbrief</a></li>
+                        <li><a href="resultaten.html">Resultaten</a></li>
+                    </ul>
+                </nav>
+        </header>
+            <div id="intro">
+                      <div id="rodelogo" class="logo">
+                      <span id="iam">I am</span>sterdam</div>
+                      <div id="blauwelogo" class="logo">
+                      <span id="iam">I am</span>sterdam</div>
+                      <div id="groenelogo" class="logo">
+                      <span id="iam">I am</span>sterdam</div>
+                </div>
+                <article class="rondehoeken">
+                <header>
+                    <div class="streep1"></div>
+                    <div class="streep2"></div>
+                    <div class="streep3"></div>
+                    <div class="streep4"></div>
+                    <div class="streep5"></div>
+                    <h1 id="artikel-titel" >Nieuwsbrief</h1>
+                </header>
+             
+                </div> <!--artikel-container -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bzLWSVxMbMg" frameborder="0" allowfullscreen></iframe>
+                <h2>Mauris vel neque</h2>
+                <div id="item">
+                <img id="beeld" src="images/nieuwsbrief.jpg" width="100px" alt="">
+                <p>Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla.</p>
+                </div><!-- id="item"-->
+                <h2>Aliquam erat volutpat</h2>
+                <div id="item">
+                <img id="beeld" src="images/nieuwsbrief2.jpg" width="100px" alt="">
+                <p>Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida conque sed sit amet purus. Quisque lacus quam, egetas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla.</p>
+                <p>Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egetas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla.</p>
+                </div><!-- id="item"-->
+                <h2>Quisque lacus quam</h2>
+                <div id="item">
+                <img id="beeld" src="images/nieuwsbrief3.jpg" width="100px" alt="">
+                <p>Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egetas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla.</p>
+                </div><!-- id="item"-->
+                </div> <!-- id="nieuw-artikel-container"-->
+                </article>
+
+                
+                
+                
+                
+                <aside>
+                    <div id="video-container" >
+                        <video controls width="150" height= "250" preload
+                            id="videos"
+                            poster="images/banner.jpg">
+                            
+                            <source src='videos/wildlife.webm' type='video/webm'/>
+                            <source src='videos/wildlife.ogv' type='video/ogg'/>
+                            <source src='videos/wildlife.mp4' type='video/mp4'/>
+                            
+                            <!--fallback to flash: -->
+                            <object type="application/x-schockwave-flash" width="150"
+                            height="250"
+                            data="player.swf">
+                            <param name="movie" value="player.swf" >
+                            <param name="allowFullscreen" value="true" >
+                            <param name "flashvars"
+                            value="config={'clip':{'url':'videos/wildfire.
+                            mp4','autoPlay':false}}">
+                            <img src="images/videoposter.jpg" id="video-still"
+                            width="150"
+                            height"250" alt="video" title="Amsterdam Marathon">
+                            </object>
+                        </video>
+                    </div> <!-- /#video-container -->
+                    
+                    <div id="advert1" class="rondehoeken" >
+                           <a href="#"><br /><br />Recyclen!<br /><br /><br /><a/>
+                    </div>
+                    
+                    <div id="advert2" class="rondehoeken">
+                          <a href="#" ><img id="snickers" src="images/tony.png" width="130px" alt="snickers"/></a>
+                    </div>
+                    
+                    
+                </aside>
+                
+                <footer>
+                    <ul class="galerij">
+                    <li><a href="#"><img src="images/finish1.jpg" />
+                    </a><li/>
+                    <li><a href="#"><img src="images/finish2.jpg" />
+                    </a></li>
+                    <li><a href="#"><img src="images/finish3.jpg" />
+                    </a></li>
+                    <li><a href="#"><img src="images/finish4.jpg" />              
+                    </a></li>
+                    </ul>
+                    <br /><br /><br /><br />
+                <small>&copy; Marathon Amsterdam </small>
+                </footer>
+                
+                </section> <!-- id="comtent"-->
+                
+               
+                
+    </section>
+  </body>
+</html>

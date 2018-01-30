@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="formstijl.css">
+    <title>Ammaar Yakoob Hoveniersbedrijf</title>
+</head>
+<body>
+    <div id="bloemen"></div>
+    <section id="content">
+       <header>
+       <img src="images/logo.png" alt="logo" id="logo">
+           <hgroup>
+               <h1 id="vollenaam">Ammaar Yakoob</h1><h1 id="hovenier">HOVENIERSBEDRIJF</h1>
+           </hgroup>
+           <nav>
+               <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#top">Tuinontwerp</a></li>
+                    <li><a href="tuinaanleg.html">Tuinaanleg</a></li>
+                    <li><a href="tuinonderhoud.html">Tuinonderhoud</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+               </ul>   
+           </nav>
+       </header>
+    <div id="body">
+    <img src="images/op.jpg" alt="op" id="op">
+    <h1>Tuinontwerp<h1>
+    <div class="kolom3">
+    <p>Een goed tuinontwerp is de basis van een mooie tuin.<p>
+    
+    <p>Uw wensen vormen de belangrijkste inspiratiebron om tot een mooie leefruimte te komen.
+    Een juiste combinatie van vorm, materiaalgebruik en beplanting groeit uiteindelijk tot
+    een harmonieus geheel.<br><br><p>
+    
+    <p>Weet u al precies wat u wilt en heeft u geen behoefte aan een (uitgebreid) ontwerp? Een
+    gesprek over uw wensen, vertaald in een schets is vaak ook al voldoende om mee aan het
+    werk te gaan.<br><br><p>
+    
+    <p>Heeft u geen behoefte aan een andere tuin maar wilt u weten waar welke planten geplant
+    moeten worden? Dan is een beplantingsplan voldoende.
+    advies of offerte aanvragen voor uw tuinontwerp?
+    Neem contact op<br> of bel: 06-12345678<p>
+    </div>
+    <footer>
+        <p> <small>&copy; Hovenier Ammaar Yakoob </small> </p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#top">Tuinontwerp</a></li>
+                <li><a href="tuinaanleg.html">Tuinaanleg</a></li>
+                <li><a href="tuinonderhoud.html">Tuinonderhoud</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer
+</section>
+</body>
+</html>

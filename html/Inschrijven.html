@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="iso-8859-1">
+    <meta name="description"  content="marathon amsterdam">
+    <meta name="keywords" content="marathon, resultaten, inschrijven">
+    <meta name="author" content="AMMAAR">  
+    <title>Marathon van Amsterdam</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+  <body>
+    <section id="content">
+        <header>
+                <hgroup>    
+                    <h1>Amsterdam Marathon</h1>
+                </hgroup>
+                <nav>
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="#top">Inschrijven</a></li>
+                        <li><a href="nieuwsbrief.html">Nieuwsbrief</a></li>
+                        </li>
+                        <li><a href="resultaten.html">Resultaten</a></li>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+            <div id="intro">
+                      <div id="rodelogo" class="logo">
+                      <span id="iam">I am</span>sterdam</div>
+                      <div id="blauwelogo" class="logo">
+                      <span id="iam">I am</span>sterdam</div>
+                      <div id="groenelogo" class="logo">
+                      <span id="iam">I am</span>sterdam</div>
+                </div>
+                <article class="rondehoeken">
+                <header>
+                    <div class="streep1"></div>
+                    <div class="streep2"></div>
+                    <div class="streep3"></div>
+                    <div class="streep4"></div>
+                    <div class="streep5"></div>
+                    <h1>inschrijven</h1>
+                </header>
+             
+                </div> <!--artikel-container -->
+                
+                <div id="artikel-container"-->
+                <div id="form-container">
+                <form class="rondehoeken" name="inschrijfformulier"  action="mailto:info@adres.com" method="post">
+                      
+                      <fieldset>
+                      <legend>check en of meer sponsers</legend>
+                      voedselbank:
+                      <input type="checkbox" name="voedselbank"
+                      id="voedselbank" value="v" />
+                      stichtingx:
+                      <input type="checkbox" name"stichtingx"
+                      id="stichtingx" value="x" />
+                      stichtingz:
+                      <input type="checkbox" name="stichtinz"
+                      id="stichtingz" value="z" />
+                      </fieldset>
+                      
+                      </fieldset>
+                      <legend>Ik loop mee als</legend>
+                      Individu:
+                      <input type="radio" name="deelnemer" id="individu"
+                      value="i" />
+                       groep:
+                       <input type="radio" name="deelnamer" id="groep"
+                       value="g" />
+                       Bedrijf:
+                       <input type="radio" name="deelnamer" id="bedrijf"
+                       value="b" />
+                       </fieldset>
+                       
+                       <fieldset>
+                       <legend>voer je gegevens in</legend>
+                       <label for="gebruiker">E-mailadres</label>
+                       <input required type="email" id="email" name="email" placeholder="email" />
+                       <label for="mobiele telefoon">Mobiele telefoon</label>
+                       <input required type="text" id="mobiele telefoon" name="mobiele telefoon" placeholder="06" />
+                       <label for="naam">Naam</label>
+                       <input required type="text" id="naam" name="naam" placeholder="naam" />
+                       <label for="adres">Adres</label>
+                       <input required type="text" id="adres" name="adres" placeholder="adres">
+                       <label for="postcode">Postcode</label>
+                       <input required type="text" id="postcode" name="postcode" placeholder="postcode" />
+                       
+                       <label for="plaats">Plaats</label>
+                       <input type="text" name="plaats" id="plaats" list="steden">
+                       <datalist id="steden">
+                       <option value="Almere">
+                       <option value="Amstelveen">
+                       <option value="Amsterdam">
+                       <option value="Den haag">
+                       <option value="Hilversum">
+                       <option value="Leeuwarden">
+                       <option value="Maastricht">
+                       <option value="Naarden">
+                       <option value="Utrecht">
+                       </datalist>
+                       
+                       <label for="onderdeel">Onderdeel</label>
+                       <select name="onderdeel">
+                       <option value="marathon">Marathon</option>
+                       <option value="halve">Halve marathon</option>
+                       <option value="8">8 km</option>
+                       <option value="kids">Olympic kids 1km</option>
+                       </select>
+                       
+                       <label for="ranking">Ranking</label>
+                       <input type="range" name="ranking" id="ranking" min="1" max="5">
+                       <label for="reactie">Reactie</label><br>
+                       <textarea cols="35" rows="4" name="reactie" id="reactie" placeholder="mail ons je reactie">
+                       </textarea>
+                       <br />
+                       <input type="submit" id="submit" name="submit" value="verzenden" />
+                       <fieldset>
+                       
+                       
+                        
+                </form>
+                
+                </div> <!-- id="form-container"-->
+                </div> <!-- id="artikel-container" -->
+                </article>
+                
+                <aside>
+                    <div id="video-container" >
+                        <video controls width="150" height= "250" preload
+                            id="videos"
+                            poster="images/banner.jpg">
+                            
+                            <source src='videos/wildlife.webm' type='video/webm'/>
+                            <source src='videos/wildlife.ogv' type='video/ogg'/>
+                            <source src='videos/wildlife.mp4' type='video/mp4'/>
+                            
+                            <!--fallback to flash: -->
+                            <object type="application/x-schockwave-flash" width="150"
+                            height="250"
+                            data="player.swf">
+                            <param name="movie" value="player.swf" >
+                            <param name="allowFullscreen" value="true" >
+                            <param name "flashvars"
+                            value="config={'clip':{'url':'videos/wildfire.
+                            mp4','autoPlay':false}}">
+                            <img src="images/videoposter.jpg" id="video-still"
+                            width="150"
+                            height"250" alt="video" title="Amsterdam Marathon">
+                            </object>
+                        </video>
+                    </div> <!-- /#video-container -->
+                    
+                    <div id="advert1" class="rondehoeken" >
+                           <a href="#"><br /><br />Recyclen!<br /><br /><br /><a/>
+                    </div>
+                    
+                    <div id="advert2" class="rondehoeken">
+                          <a href="#" ><img id="snickers" src="images/tony.png" width="130px" alt="snickers"/></a>
+                    </div>
+                    
+                    
+                </aside>
+                
+                <footer>
+                    <ul class="galerij">
+                    <li><a href="#"><img src="images/finish1.jpg" />
+                    </a><li/>
+                    <li><a href="#"><img src="images/finish2.jpg" />
+                    </a></li>
+                    <li><a href="#"><img src="images/finish3.jpg" />
+                    </a></li>
+                    <li><a href="#"><img src="images/finish4.jpg" />              
+                    </a></li>
+                    </ul>
+                    <br /><br /><br /><br />
+                <small>&copy; Marathon Amsterdam </small>
+                </footer>
+                
+                </section> <!-- id="comtent"-->
+                
+               
+                
+    </section>
+  </body>
+</html>

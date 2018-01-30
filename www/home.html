@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="formstijl.css">
+    <title>Ammaar Yakoob Hoveniersbedrijf</title>
+</head>
+<body>
+    <div id="bloemen"></div>
+    <section id="content">
+       <header>
+       <img src="images/logo.png" alt="logo" id="logo">
+           <hgroup>
+               <h1 id="vollenaam">Ammaar Yakoob</h1><h1 id="hovenier">HOVENIERSBEDRIJF</h1>
+           </hgroup>
+           <nav>
+               <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="tuinontwerp.html">Tuinontwerp</a></li>
+                    <li><a href="tuinaanleg.html">Tuinaanleg</a></li>
+                    <li><a href="tuinonderhoud.html">Tuinonderhoud</a></li>
+                    <li><a href="#top">Contact</a></li>
+               </ul>   
+           </nav>
+       </header>
+    <div id="body">
+    <h1>CONTACT</h1>
+    Heeft u tuinadvies nodig of wilt u een gratis offerte aanvragen? Wilt u gebruik maken van mijn diensten als hovenier? U kunt contact opnemen door onderstaand contactformulier in te vullen, bellen kan natuurlijk ook.
+    <form action="../cgi-bin/formmail.pl" method="post">
+    <fieldset>
+        <legend>Uw gegevens</legend>
+        <p>Naam:</p>
+        <select name="geslacht" id="geslacht">
+            <option value="Mevrouw">Mevrouw</option>
+            <option value="Meneer">Meneer</option>
+        </select>
+        <input required type="text" id="achternaam" name="achternaam" placeholder="Achternaam">
+        <p>Adres:</p>
+        <label for="adres"></label>
+        <input required type="text" id="straatnaam" name="adres" placeholder="Straatnaam">
+        <input required type="text" id="huisnummer" name="huisnummer" placeholder="Nummer"> <br>
+        <label for="postcode"></label>
+        <input required type="text" id="postcode" name="postcode" placeholder="Postcode">
+        <input required type="text" id="woonplaats" name="woonplaats" list="steden" placeholder="Woonplaats">
+        <datalist id="steden">
+                <option value="Almere">
+                <option value="Amstelveen">
+                <option value="Amsterdam">
+                <option value="Badhoevedorp">
+                <option value="Diemen">
+                <option value="Haarlem">
+                <option value="Hilversum">
+                <option value="Purmerend">
+                <option value="Wormerveer">
+                <option value="Zaandam">
+        </datalist>
+        <p>E-mail:</p>
+        <label for="email"></label>
+        <input required type="text" id="email" name="email" placeholder="Email">
+        <p>Telefoon:</p>
+        <label for="telefoonnummer"></label>
+        <input required type="text" id="telefoonnummer" name="telefoonnummer" placeholder="Telefoonnummer">
+    </fieldset>
+    <fieldset>
+        <legend>Werkzaamheden</legend>  
+            <input type="radio" name="tuin" value="tuinontwerp" /> Tuinontwerp
+            <input type="radio" name="tuin" value="tuinaanleg" /> Tuinaanleg
+            <input type="radio" name="tuin" value="tuinonderhoud" /> Tuinonderhoud <br>     
+        Gewenste datum:
+        <label for="datum"></label>
+        <input required type="text" id="datum" name="datum" placeholder="dd-mm-jjjj"><br> 
+        Wenst u een onderhoudscontract? <br>
+        Ja <input type="radio" name="antwoord" value="Ja" /> 
+        Nee <input type="radio" name="antwoord" value="Nee" />
+    </fieldset>
+    <input type="submit" name="submit" value="Verzenden">
+    </form>
+    <aside>
+    <img src="images/rol.jpg" alt="robben" id="robben"><br>
+    Ammaar Yakoob<br>
+    1094 AB Amsterdam <br>
+    Tel.: 0687146503<br>
+    KvK-nr.: 7365831 <br>
+    BRW-nr.: NL74696492755823 <br>
+    2043172@talnet.nl  
+    </aside>
+    <footer>
+        <p></small>&copy; Hovenier Ammaar Yakoob</small></p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="tuinontwerp.html">Tuinontwerp</a></li>
+                <li><a href="tuinaanleg.html">Tuinaanleg</a></li>
+                <li><a href="tuinonderhoud.html">Tuinonderhoud</a></li>
+                <li><a href="#top">Contact</a></li>
+            </ul>
+        </nav>
+    </footer
+</section>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="iso-8859-1">
+    <meta name="description"  content="marathon amsterdam">
+    <meta name="keywords" content="marathon, resultaten, inschrijven">
+    <meta name="author" content="AMMAAR">  
+    <title>Marathon van Amsterdam</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+  <body>
+    <section id="content">
+        <header>
+                <hgroup>    
+                    <h1>Amsterdam Marathon</h1>
+                </hgroup>
+                <nav>
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="inschrijven.html">Inschrijven</a></li>
+                        <li><a href="nieuwsbrief.html">Nieuwsbrief</a></li>
+                        <li><a href="#top">Resultaten</a></li>
+                    </ul>
+                </nav>
+        </header>
+            <div id="intro">
+                      <div id="rodelogo" class="logo">
+                      <span id="iam">I am</span>sterdam</div>
+                      <div id="blauwelogo" class="logo">
+                      <span id="iam">I am</span>sterdam</div>
+                      <div id="groenelogo" class="logo">
+                      <span id="iam">I am</span>sterdam</div>
+                </div>
+                <article class="rondehoeken">
+                <header>
+                    <div class="streep1"></div>
+                    <div class="streep2"></div>
+                    <div class="streep3"></div>
+                    <div class="streep4"></div>
+                    <div class="streep5"></div>
+                    <h1 id="artikel-titel" >Top 10 runners</h1>
+                </header>
+             
+                </div> <!--artikel-container -->
+                <table class="tablel">
+                <thead>
+                <tr>
+                <th>Finish</th>
+                <th>Naam</th>
+                <th>Tijd</th>
+                <th>Record</th>
+                <th>Land</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                  <th colspan="5">Top 10 Rankings</th>
+                </tr>
+                </tfoot>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Gebre Gebrmariam</td>
+                    <td>02:08:14</td>
+                    <td><span class="check"></span></td>
+                    <td>Ethiopia</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Emmanuel Mutai</td>
+                    <td>02:09:18</td>
+                    <td> </td>
+                    <td>Kenya</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Moses Kigen Kipkosgei</td>
+                  <td>02:10:39</td>
+                  <td> </td>
+                  <td>Morocco</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Abderrahim Goumri</td>
+                    <td>02:10:51</td>
+                    <td><span class="check"></span></td>
+                    <td>Brazil</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td> James Kwambai</td>
+                  <td>02:11:31</td>
+                   <td><span class="check"></span></td>
+                  <td>Kenya</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Meb Keflezighi</td>
+                    <td>02:11:38</td>
+                    <td> </td>
+                    <td>VS</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Marilson Gomes Dos Santos</td>
+                    <td>02:11:51</td>
+                    <td><span class="check"></span></td>
+                    <td>Brazil</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Dathan Ritzenhein</td>
+                    <td>02:12:33</td>
+                    <td><span class="check"></span></td>
+                    <td>VS</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Abel Kirui</td>
+                    <td>02:13:01</td>
+                    <td><span class="check"></span></td>
+                    <td>Kenya</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Abderrahime Bouramdane</td>
+                    <td>02:14:07</td>
+                    <td><span class="check"></span></td>
+                    <td>Morocco</td>
+                </tr>
+                </tbody>
+                </table>
+                </div <!-- id="nieuw-artikel-container" -->
+                </article>
+                    
+                  
+               
+                
+               
+                
+                
+                
+
+                
+                
+                
+                
+                <aside>
+                    <div id="video-container" >
+                        <video controls width="150" height= "250" preload
+                            id="videos"
+                            poster="images/banner.jpg">
+                            
+                            <source src='videos/wildlife.webm' type='video/webm'/>
+                            <source src='videos/wildlife.ogv' type='video/ogg'/>
+                            <source src='videos/wildlife.mp4' type='video/mp4'/>
+                            
+                            <!--fallback to flash: -->
+                            <object type="application/x-schockwave-flash" width="150"
+                            height="250"
+                            data="player.swf">
+                            <param name="movie" value="player.swf" >
+                            <param name="allowFullscreen" value="true" >
+                            <param name "flashvars"
+                            value="config={'clip':{'url':'videos/wildfire.
+                            mp4','autoPlay':false}}">
+                            <img src="images/videoposter.jpg" id="video-still"
+                            width="150"
+                            height"250" alt="video" title="Amsterdam Marathon">
+                            </object>
+                        </video>
+                    </div> <!-- /#video-container -->
+                    
+                    <div id="advert1" class="rondehoeken" >
+                           <a href="#"><br /><br />Recyclen!<br /><br /><br /><a/>
+                    </div>
+                    
+                    <div id="advert2" class="rondehoeken">
+                          <a href="#" ><img id="snickers" src="images/tony.png" width="130px" alt="snickers"/></a>
+                    </div>
+                    
+                    
+                </aside>
+                
+                <footer>
+                    <ul class="galerij">
+                    <li><a href="#"><img src="images/finish1.jpg" />
+                    </a><li/>
+                    <li><a href="#"><img src="images/finish2.jpg" />
+                    </a></li>
+                    <li><a href="#"><img src="images/finish3.jpg" />
+                    </a></li>
+                    <li><a href="#"><img src="images/finish4.jpg" />              
+                    </a></li>
+                    </ul>
+                    <br /><br /><br /><br />
+                <small>&copy; Marathon Amsterdam </small>
+                </footer>
+                
+                </section> <!-- id="comtent"-->
+                
+               
+                
+    </section>
+  </body>
+</html>

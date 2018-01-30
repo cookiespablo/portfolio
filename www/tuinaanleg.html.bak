@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="formstijl.css">
+    <title>Ammaar Yakoob Hoveniersbedrijf</title>
+</head>
+<body>
+    <div id="bloemen"></div>
+    <section id="content">
+       <header>
+       <img src="images/logo.png" alt="logo" id="logo">
+           <hgroup>
+               <h1 id="vollenaam">Ammaar Yakoob</h1><h1 id="hovenier">HOVENIERSBEDRIJF</h1>
+           </hgroup>
+           <nav>
+               <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="tuinontwerp.html">Tuinontwerp</a></li>
+                    <li><a href="#top">Tuinaanleg</a></li>
+                    <li><a href="tuinonderhoud.html">Tuinonderhoud</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+               </ul>   
+           </nav>
+       </header>
+    <div id="body">
+        <img src="images/po.jpg" alt="po" id="po">
+    
+    
+    <h1>Tuinaanleg<h1>
+    <div class="kolom1">
+        <p><h3>Uw tuin is het visitekaartje van uw woning.
+        Ik zorg voor de vertaling van uw wensen in de aanleg van uw tuin. Daarvoor is vakmanschap
+        nodig. Alleen al om ervoor te zorgen dat de investering in uw tuin toekomstbestendig en
+        duurzaam is.
+        Met ruim 20 jaar ervaring als hovenier breng ik de benodigde vaardigheden mee.<p><h3>
+        
+        <p><h3>Ik heb oog voor detail en adviseer u graag over de mogelijkheden. Tuinaanleg, passend bij
+        uw plannen.<p><h3>
+        
+        <p><h3>Als hovenier heb ik ruime ervaring met o.a. grondwerk, het leggen van bestrating, het
+        aanleggen van waterpartijen en vijvers, het bouwen van tuinhuisjes, het aanleggen van
+        beplanting, …<p><h3>
+        
+        <p><h3>Wanneer u uw tuin volledig wilt laten renoveren of opnieuw wilt laten aanleggen ben ik u
+        graag van dienst. Hetzelfde geldt voor kleine veranderingen in uw bestaande tuin.<p><h3>
+        
+        <p><h3>Advies of offerte aanvragen voor uw tuinaanleg?<p><h3>
+        
+        <p><h3>Neem contact op of bel: 06-36400194<p><h3>
+    </div>
+    <footer>
+        <p> <small>&copy; Hovenier Ammaar Yakoob </small> </p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="tuinontwerp.html">Tuinontwerp</a></li>
+                <li><a href="#top">Tuinaanleg</a></li>
+                <li><a href="tuinonderhoud.html">Tuinonderhoud</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer
+</section>
+</body>
+</html>

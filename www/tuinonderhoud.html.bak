@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="formstijl.css">
+    <title>Ammaar Yakoob Hoveniersbedrijf</title>
+</head>
+<body>
+    <div id="bloemen"></div>
+    <section id="content">
+       <header>
+       <img src="images/logo.png" alt="logo" id="logo">
+           <hgroup>
+               <h1 id="vollenaam">Ammaar Yakoob</h1><h1 id="hovenier">HOVENIERSBEDRIJF</h1>
+           </hgroup>
+           <nav>
+               <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="tuinontwerp.html">Tuinontwerp</a></li>
+                    <li><a href="tuinaanleg.html">Tuinaanleg</a></li>
+                    <li><a href="#top">Tuinonderhoud</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+               </ul>   
+           </nav>
+       </header>
+    <div id="body">
+    
+     <img src="images/popo.png" alt="popo" id="popo">
+    <h1>Tuinonderhoud<h1>
+    <div class="kolom2">
+    <p><h3>Uw tuin blíjft mooi door vakkundig en regelmatig onderhoud.<p><h3>
+    
+    <p><h3>Of het nu gaat om een strak geknipte haag, een gemaaid gazon, het bemesten van uw
+    planten, een border zonder onkruid, allemaal elementen die bijdragen aan een tuin met
+    uitstraling en dus aan uw woonplezier.<p><h3>
+    
+    <p><h3>Wilt u dit onderhoud aan uw tuin vakkundig en regelmatig laten uitvoeren?<p><h3>
+    
+    <p><h3>Ik bied u de onderhoudsvorm die het beste bij u en uw tuin past!<p><h3>
+    
+    <p><h3>Mogelijke opties zijn bijvoorbeeld:<p><h3>
+    
+    <p><h3>Voor- en najaarsonderhoud;
+    Jaarlijks verticuteren van het gazon;
+    Periodiek vijveronderhoud;
+    Snoeiwerk;
+    Volledig onderhoud.<p><h3>
+    
+    <p><h3>Een eenmalige onderhoudsbeurt behoort ook tot de mogelijkheden, evenals tuinonderhoud met
+    een andere frequentie zoals bijvoorbeeld twee keer per jaar, een keer per kwartaal of
+    iedere maand.<p><h3>
+    
+    <p><h3>advies of offerte aanvragen voor uw tuinonderhoud?<p><h3>
+    
+    <p><h3>Neem contact op of bel: 06-36400194<p><h3>
+    </div>
+    
+    <footer>
+        <p> <small>&copy; Hovenier Ammaar Yakoob </small> </p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="tuinontwerp.html">Tuinontwerp</a></li>
+                <li><a href="tuinaanleg.html">Tuinaanleg</a></li>
+                <li><a href="#top">Tuinonderhoud</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer
+</section>
+</body>
+</html>

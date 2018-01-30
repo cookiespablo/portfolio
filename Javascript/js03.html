@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js03-Ammaar</title>
+</head>
+<body>
+
+<h1>What Can JavaScript Do?</h1>
+
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px"
+onmouseover="document.getElementById('myImage').src='pic_bulbon.gif'"
+onmouseout="document.getElementById('myImage').src='pic_bulboff.gif'"> 
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<hr>
+
+
+<h1>Variant 1</h1>
+
+<p>Mouse over de lamp om hem aan/uit te doen.</p>
+<hr>
+
+
+<h1>Variant 2</h1>
+
+<p>Klik de schakelaar voor lamp aan; dubbekklik voor lamp uit.</p>
+<img id="myImage" src="schakelaar.jpg" style="width:100px"
+onclick="document.getElementById('myImage').src='pic_bulbon.gif'"
+ondblclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+
+<hr>
+
+<h1>Variant 3</h1>
+
+<p>Klik de aan-uit knop voor lamp aan;dubbelklik voor lamp uit.</p>
+<img id="myImage" src="uit.jpg" style="width:100px"
+onclick="document.getElementById('myImage').src='pic_bulbon.gif';this.src='aan.jpg'"
+ondblclick="document.getElementById('myImage').src='pic_bulboff.gif';this.src='uit.jpg'"">
+
+
+<hr>
+</body>
+</html>

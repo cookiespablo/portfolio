@@ -1,0 +1,623 @@
+/* achtergrond */
+
+#blauw{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #add8e6; 
+	z-index: -5;
+}
+
+#groen{
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    background-color: limegreen;
+	z-index: -5;
+}
+/*achtergrond*/
+
+/*body*/
+body{
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+/* Hele trein */
+	
+
+
+#trein {
+	width: 300px;
+	height: 100px;
+	background: yellow;
+	position: absolute;
+	left: 100px;
+	-webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;
+	position: absolute;
+	top: 180px;
+	transform: scale(0.6);
+	z-index: -1;
+}
+	
+#treinvoorkant {
+	width: 0;
+	height: 0;
+	border-top: 100px solid #add8e6 ;
+	border-left: 100px solid transparent;
+	margin-left: 200px;
+	position: absolute;
+}
+
+
+#treinraampje {
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid grey;
+	border-right: 70px solid transparent;
+	position: absolute;
+	top: -90px;
+	left:-110px;
+}
+#treinachterkant {
+	
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid yellow;
+	border-left: 100px solid transparent;
+	position: absolute;
+	left: -290px;
+	top:-10px;
+	z-index:2;
+
+}
+#wiel1 {
+	width: 40px;
+	height: 40px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 90px;
+	left: 150px;
+	z-index: -1;
+}
+#wiel2 {
+	width: 40px;
+	height: 40px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 90px;
+	left: 60px;
+	z-index: -1;
+}
+#wiel3 {
+	width: 40px;
+	height: 40px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 90px;
+	left: -20px;
+	z-index: -1;
+}
+
+#streepNS{
+	width: 200px;
+	height: 20px;
+	background: blue;
+	position: absolute;
+	top: 40px;
+	left: -210px;
+	color: white;
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 100%;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100%;}
+}
+/* hele trein*/
+
+/* brug */
+#platform1 {
+	width: 10000px;
+	height: 15px;
+	background: red;
+  position: absolute;
+  top: 50px;
+ 
+
+}
+
+#paal1{
+	width: 10px;
+	height: 100px;
+	background-color: black;
+	z-index: -2;
+	position: absolute;
+	left: 300px;
+	top: 270px;
+}
+#paal2{
+	width: 10px;
+	height: 100px;
+	background-color: black;
+	z-index: -2;
+	position: absolute;
+	left: 600px;
+	top: 270px;
+}
+#paal3{
+	width: 10px;
+	height: 100px;
+	background-color: black;
+	z-index: -2;
+	position: absolute;
+	left: 900px;
+	top: 270px;
+}
+#paal4{
+	width: 10px;
+	height: 100px;
+	background-color: black;
+	z-index: -2;
+	position: absolute;
+	left: 1200px;
+	top: 270px;
+}
+.brug {
+  position:absolute;
+  top: 240px;
+  transform: scale(0.6);
+  z-index: -1;
+}
+/* brug */
+
+
+
+/* flat */
+#gebouw{width:200px;height:400px;background-color:grey; z-index:-2;}
+.deur{width:50px;height:95px;background-color:brown; z-index:0;}
+.deurknop{width:10px;height:10px;border-radius:20px;background-color:#2E2E2E; z-index:0}
+.ramen:hover {background-color:#ffff00;} 
+.ramen{width:50px;height:50px;background-color:#d5d5d5;-webkit-transition: background-color 1.5s; position:relative; z-index: 0;}
+#deurknop1{position:absolute;left:95px;top:360px;}
+#deurknop2{position:absolute;left:115px;top:360px;}
+#deur1{position:absolute;left:110px;top:313px;}
+#deur2{position:absolute;left:60px;top:313px;}
+#raam1{;position:absolute;left:25px;top:25px}
+#raam2{position:absolute;left:125px;top:25px}
+#raam3{position:absolute;left:25px;top:100px}
+#raam4{position:absolute;left:125px;top:100px}
+#raam5{position:absolute;left:25px;top:175px}
+#raam6{position:absolute;left:125px;top:175px}
+#raam7{position:absolute;left:25px;top:250px}
+#raam8{position:absolute;left:125px;top:250px}
+#dak{width:210px;height:5px;background-color:#333333;position:absolute;left:5px;}
+#gebouw:hover #raam1,
+#gebouw:hover #raam2,
+#gebouw:hover #raam3,
+#gebouw:hover #raam4,
+#gebouw:hover #raam5,
+#gebouw:hover #raam6,
+#gebouw:hover #raam7,
+#gebouw:hover #raam8{background-color:#ffff00}
+.hoofd{display:none;width:50px;height:50px; z-index:4;}
+
+/* flat */
+
+
+
+/* bos --> upgrade vanuit boom <--*/
+#container{
+  width: 1600px;
+  height: 100px;
+  display: block;
+  z-index: 2;
+  }
+
+#tree{
+  width: 0; height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 105px solid green;
+  float:left;
+  animation: grow 2s;
+  animation-fill-mode: forwards;
+  margin-left: 12px;
+  
+}
+@keyframes grow {
+  from {transform:scale(0);}
+      to {transform:scale(2);}
+}
+#tree:after{
+  content:"";
+  width: 8px; height: 40px;
+  display: block;
+  position: relative; top: 105px; left: -5px; background-color: #5f3915;
+}
+#tree1{
+  width: 0; height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 105px solid lightgreen;
+  float:left;
+  animation: grow1 4s;
+  animation-fill-mode: forwards;
+  margin-left: 12px;
+
+}
+@keyframes grow1 {
+  from {transform:scale(0);}
+      to {transform:scale(1.7);}
+}
+#tree1:after{
+  content:"";
+  width: 8px; height: 40px;
+  display: block;
+  position: relative; top: 105px; left: -5px; background-color: #5f3915;
+}
+#tree2{
+  width: 0; height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 105px solid darkgreen;
+  float:left;
+  animation: grow2 7s;
+  animation-fill-mode: forwards;
+  margin-left: 12px;
+ 
+}
+@keyframes grow2 {
+  from {transform:scale(0);}
+      to {transform:scale(1.4);}
+}
+#tree2:after{
+  content:"";
+  width: 8px; height: 40px;
+  display: block;
+  position: relative; top: 105px; left: -5px; background-color: #5f3915;
+}
+/* zon */
+
+.obj-sun {
+	
+	position: relative;
+	left: 500px;
+	bottom: 500px;
+	width: 100px;
+	height: 100px;
+	
+	box-sizing: border-box;
+	z-index:1;
+}
+
+
+.obj-sun-corona {
+	position: absolute;
+	top: 17%;
+	right: 17%;
+	bottom: 17%;
+	left: 17%;
+	background: #FED35D;
+	border-radius: 50%;
+  animation: spin 15s infinite linear;
+}
+
+.obj-sun-corona > div {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.obj-sun-corona > div > span {
+	display: block;
+	position: absolute;
+	width: 16%;
+	height: 16%;
+}
+
+.obj-sun-corona > div > span > span {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.obj-sun-corona > div > span > span {
+	transform: scaleY(1.8);
+}
+
+.obj-sun-corona > div > span > span > span {
+	content: " ";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #FED35D;
+	transform: rotate(45deg);
+}
+
+.obj-sun-corona .item-1 {
+	top: -5%;
+	left: 42%;
+}
+
+.obj-sun-corona .item-2 {
+	top: 42%;
+	right: -5%;
+	transform: rotate(90deg);
+}
+
+.obj-sun-corona .item-3 {
+	bottom: -5%;
+	left: 42%;
+}
+
+.obj-sun-corona .item-4 {
+	top: 42%;
+	left: -5%;
+	transform: rotate(90deg);
+}
+
+.obj-sun-corona .item-group-2 {
+	transform: rotate(15deg);
+}
+
+.obj-sun-corona .item-group-3 {
+	
+	transform: rotate(30deg);
+}
+
+.obj-sun-corona .item-group-4 {
+	
+	transform: rotate(45deg);
+}
+
+.obj-sun-corona .item-group-5 {
+	
+	transform: rotate(60deg);
+}
+
+.obj-sun-corona .item-group-6 {
+	
+	transform: rotate(75deg);
+}
+
+.obj-sun-corona .item-group-1 > span > span {
+	transform: scaleY(1.9);
+}
+
+.obj-sun-corona .item-group-2 .item-1 > span,
+.obj-sun-corona .item-group-2 .item-3 > span {
+	transform: scaleY(1.4);
+}
+
+.obj-sun-corona .item-group-2 .item-2 > span,
+.obj-sun-corona .item-group-2 .item-4 > span {
+	transform: scaleY(1.5);
+}
+
+.obj-sun-corona .item-group-6 .item-1 > span,
+.obj-sun-corona .item-group-6 .item-3 > span {
+	transform: scaleY(1.4);
+}
+
+.obj-sun-corona .item-group-6 .item-2 > span,
+.obj-sun-corona .item-group-6 .item-4 > span {
+	transform: scaleY(1.5);
+}
+
+.obj-sun-corona .item-group-4 .item-4 > span {
+	transform: scaleY(1.6);
+}
+
+.obj-sun-corona .item-group-4 .item-1 > span,
+.obj-sun-corona .item-group-4 .item-3 > span {
+	transform: scaleY(1.6);
+}
+
+.obj-sun-corona .item-group-5 .item-4 > span {
+	transform: scaleY(1.9);
+}
+
+.obj-sun-photosphere {
+	position: absolute;
+	top: 18%;
+	right: 18%;
+	bottom: 18%;
+	left: 18%;
+	background: #EAB622;
+	box-shadow: inset -10px -10px 0 0 #e89d1c;
+	border-radius: 50%;
+}
+
+/* Keyframes */
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Extras */
+
+body {
+  background: #E9F2F4;
+}
+
+.obj-sun {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* zon */
+
+/* Molen */
+#grootte {
+    position: relative;
+	left: 1250px;
+	bottom: 450px;
+	width: 100px;
+	height: 100px;
+	z-index: -1;
+}
+
+#dakmolen{
+  margin-top: 20px;
+  margin-left: 50px;
+	width: 100px;
+	height: 50px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid grey;
+  position: absolute;
+  transform: scale(0.55);
+}
+#base {
+  margin-top: 50px;
+  margin-left: 50px;
+	width: 200px;
+	height: 250px;
+	background: #DEB887;
+	border-radius: 250px / 150px;
+  position: absolute;
+  transform: scale(0.55);
+}
+#cross {
+  margin-top: 35px;
+  margin-left: 140px;
+  background: #8B0000;
+  height: 100px;
+  position: absolute;;
+  width: 20px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+#cross:after {
+  background: #8B0000;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
+#deur {
+  margin-left:138px ;
+  margin-top:200px ;
+  width: 27px;
+	height: 37px;
+	background: brown;
+  position: absolute;
+}
+#raam {
+  margin-left:110px ;
+  margin-top:180px ;
+  width: 20px;
+	height: 20px;
+	background: lightyellow;
+  position: absolute;
+}
+
+/* Molen */
+
+
+/* Einde */
+
+#myContainer {
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: -400px;
+  left: 500px;
+  background: rgba(0,0,0,0.0);
+  
+}
+#myAnimation {
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: -100px;
+  left: 100px;
+  font-size: 30px;
+  font-family:Times New Roman;
+  color: black;
+  background: rgba(0,0,0,0.3);
+  z-index:5;
+}
+
+
+/* Einde */
+/* Counter */
+#mycounter{
+	background-color: rgba(192,192,192,0.5);
+	color: white;
+}
+	#counter{
+	background-color: rgba(192,192,192,0.5);
+	color: white;
+	width:100px;
+	
+	top: 100px;
+}
+/* counter */
+#dashboardContainer{
+	background-color: rgba(192,192,192,1);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 300px;
+	z-index:9;
+}
+
+/* Pedobear*/
+#drag1{
+    width: 70px;
+    height: 129px;
+    bottom: 250px;
+    left: 490px;
+    bottom: 400px;
+
+}
+#div1 {
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    margin-bottom: 400px;
+}
+/* Drag and drop anywhere */
+aside {
+		position:  absolute;
+		left: 150px;
+		top: 500px;
+		width: 100px;
+		height: 184px;
+		background:
+		border: 0px  solid rgba(0,0,0,0.5);
+		border-radius: 4px; padding: 8px;
+}
